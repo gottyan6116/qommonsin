@@ -314,6 +314,30 @@ export default function AppShell() {
                       <Settings size={16} />
                       デモの設定
                     </button>
+                    <button
+                      onClick={async () => {
+                        try {
+                          const response = await fetch("/login", {
+                            method: "DELETE",
+                            credentials: "same-origin",
+                          });
+                          if (response.ok) {
+                            window.location.assign("/login");
+                            return;
+                          }
+                          notify(
+                            "ログアウトできませんでした。もう一度お試しください。",
+                          );
+                        } catch {
+                          notify(
+                            "接続できませんでした。もう一度お試しください。",
+                          );
+                        }
+                      }}
+                    >
+                      <LogOut size={16} />
+                      ログアウト
+                    </button>
                   </div>
                 </>
               )}

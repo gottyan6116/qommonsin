@@ -1,5 +1,14 @@
 import { test, expect } from "@playwright/test";
 test.beforeEach(async ({ page }) => {
+  const base = process.env.BASE_URL || "http://127.0.0.1:3105";
+  const login = await page.request.post(base + "/login", {
+    headers: { Origin: new URL(base).origin },
+    data: {
+      email: process.env.TEST_LOGIN_EMAIL || "browser-test@example.test",
+      password: process.env.TEST_LOGIN_PASSWORD || "browser-test-only-password",
+    },
+  });
+  expect(login.ok()).toBe(true);
   await page.goto("/");
   await expect(page.getByTestId("post-p1")).toBeVisible();
 });
@@ -21,7 +30,9 @@ test("90秒の知恵の循環と投稿の永続化", async ({ page }) => {
   await page.getByRole("button", { name: "自庁との差分を確認する" }).click();
   await expect(page.getByText("2つの運用差分を確認しました")).toBeVisible();
   await page.getByRole("button", { name: "改善案を投稿する" }).click();
-  await expect(page.getByRole("textbox", { name: "投稿本文" })).toHaveValue(/スキャン・転記確認/);
+  await expect(page.getByRole("textbox", { name: "投稿本文" })).toHaveValue(
+    /スキャン・転記確認/,
+  );
   await page.getByRole("button", { name: "投稿する", exact: true }).click();
   await expect(page.locator("article.post").first()).toContainText(
     "【改善提案】",

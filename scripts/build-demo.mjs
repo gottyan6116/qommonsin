@@ -40,6 +40,4 @@ const html =
   js.replaceAll("</script", "<\\/script") +
   "</script></body></html>";
 fs.writeFileSync(path.join(root, "../Qommons-IN-demo.html"), html);
-fs.writeFileSync(path.join(root,"index.html"), html);
-fs.writeFileSync(path.join(root,".nojekyll"), "");
 console.log("Standalone demo generated: " + Buffer.byteLength(html) + " bytes");
