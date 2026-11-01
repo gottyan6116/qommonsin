@@ -9,9 +9,12 @@
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "test:e2e": "playwright test",
-    "build:demo": "node scripts/build-demo.mjs"
+    "build:demo": "node scripts/build-demo.mjs",
+    "test:auth-http": "node scripts/verify-auth.mjs",
+    "configure:auth": "node scripts/configure-auth.mjs"
   },
   "dependencies": {
+    "jose": "^6.2.14",
     "lucide-react": "^0.468.0",
     "next": "^16.0.0",
     "react": "^19.2.0",
