@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap");
 :root {
   --green: #176b52;
   --mint: #67c59f;
@@ -16,10 +17,8 @@ body {
   background: var(--bg);
   color: var(--text);
   font:
-    13px/1.65 "Yu Gothic",
-    "游ゴシック",
-    YuGothic,
-    Meiryo,
+    15px/1.75 Inter,
+    "Noto Sans JP",
     sans-serif;
 }
 button,
@@ -65,14 +64,14 @@ h1 {
   letter-spacing: -0.6px;
 }
 h2 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 750;
 }
 h3 {
-  font-size: 14px;
+  font-size: 15px;
 }
 small {
-  font-size: 11px;
+  font-size: 13px;
 }
 svg {
   flex-shrink: 0;
@@ -111,7 +110,7 @@ img {
   justify-content: space-between;
   color: #68786e;
   background: #eaf0ec;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.3px;
 }
 .demo-bar b {
@@ -153,7 +152,7 @@ img {
   background: var(--border);
 }
 .brand-name {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 750;
   line-height: 1.4;
   white-space: nowrap;
@@ -165,7 +164,7 @@ img {
 }
 .brand-name small {
   display: block;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1.2px;
   color: var(--muted);
   font-weight: 500;
@@ -191,7 +190,7 @@ img {
   background: transparent;
   border: 0;
   outline: 0 !important;
-  font-size: 11px;
+  font-size: 13px;
   min-width: 0;
 }
 .header-search button {
@@ -212,7 +211,7 @@ img {
   align-items: center;
   color: #6d7972;
   position: relative;
-  font-size: 10px;
+  font-size: 12px;
   white-space: nowrap;
   border-bottom: 3px solid transparent;
   padding: 9px 10px 5px;
@@ -364,7 +363,7 @@ img {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700;
 }
 .profile-title:hover,
@@ -374,19 +373,19 @@ img {
 }
 .profile-card-body p {
   margin-top: 4px;
-  font-size: 11px;
+  font-size: 13px;
 }
 .profile-card-body > small {
   display: block;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 3px;
 }
 .municipality {
   display: flex;
   gap: 7px;
   align-items: center;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   margin-top: 12px;
 }
@@ -405,7 +404,7 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 4px 0;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
 }
 .profile-stats button:hover span {
@@ -413,7 +412,7 @@ img {
 }
 .profile-stats strong {
   color: var(--green);
-  font-size: 11px;
+  font-size: 13px;
 }
 .personal-menu {
   padding: 8px;
@@ -424,7 +423,7 @@ img {
   gap: 11px;
   width: 100%;
   padding: 11px 9px;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   border-radius: 5px;
   text-align: left;
@@ -434,7 +433,7 @@ img {
 }
 .personal-menu button small {
   margin-left: auto;
-  font-size: 10px;
+  font-size: 12px;
   color: #76847b;
 }
 .personal-menu button:hover,
@@ -463,11 +462,11 @@ img {
   object-fit: contain;
 }
 .left-ai h3 {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.65;
 }
 .left-ai p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin: 7px 0 14px;
   line-height: 1.8;
@@ -476,7 +475,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 650;
   width: 100%;
   color: var(--green);
@@ -485,14 +484,14 @@ img {
   text-decoration: underline;
 }
 .left-ai > span {
-  font-size: 9px;
+  font-size: 11px;
   color: #7a8b80;
   display: block;
   margin-top: 9px;
 }
 .sidebar-footer {
   text-align: center;
-  font-size: 9px;
+  font-size: 11px;
   color: #8a968e;
   padding-top: 7px;
   line-height: 1.9;
@@ -500,11 +499,11 @@ img {
 .sidebar-footer > strong {
   display: block;
   color: #6a7e71;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 12px;
 }
 .sidebar-footer strong small {
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 400;
 }
 .sidebar-footer > div {
@@ -514,20 +513,20 @@ img {
   margin: 7px 0;
 }
 .sidebar-footer button {
-  font-size: 9px;
+  font-size: 11px;
 }
 .sidebar-footer button:hover {
   text-decoration: underline;
 }
 .sidebar-footer > small {
-  font-size: 8px;
+  font-size: 10px;
 }
 .welcome-strip {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 1px 12px;
-  font-size: 11px;
+  font-size: 13px;
   min-height: 17px;
 }
 .welcome-strip > span {
@@ -546,7 +545,7 @@ img {
   display: flex;
   align-items: center;
   gap: 2px;
-  font-size: 9px;
+  font-size: 11px;
   color: var(--muted);
 }
 .composer {
@@ -564,7 +563,7 @@ img {
   text-align: left;
   padding: 12px 17px;
   color: #68766e;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   min-width: 0;
 }
@@ -582,7 +581,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   padding: 8px;
   border-radius: 4px;
@@ -603,7 +602,7 @@ img {
 }
 .feed-tabs > button {
   padding: 5px 12px;
-  font-size: 10px;
+  font-size: 12px;
   white-space: nowrap;
   border-radius: 16px;
   border: 1px solid var(--border);
@@ -625,7 +624,7 @@ img {
 .sort-label select {
   background: none;
   border: 0;
-  font-size: 9px;
+  font-size: 11px;
   color: var(--muted);
   cursor: pointer;
   max-width: 100%;
@@ -639,7 +638,7 @@ img {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 9px;
+  font-size: 11px;
   color: #65776b;
   background: #fbfcfb;
   border-bottom: 1px solid #edf1ee;
@@ -648,7 +647,7 @@ img {
 }
 .unverified {
   margin-left: auto;
-  font-size: 8px;
+  font-size: 10px;
   color: #88958c;
 }
 .post-header {
@@ -668,7 +667,7 @@ img {
 .author-meta {
   flex: 1;
   min-width: 0;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   line-height: 1.65;
 }
@@ -676,14 +675,14 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text);
   text-align: left;
   line-height: 1.5;
 }
 .author-degree {
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 400;
   color: #809086;
 }
@@ -691,7 +690,7 @@ img {
   display: flex;
   gap: 5px;
   align-items: center;
-  font-size: 9px;
+  font-size: 11px;
   color: #819085;
 }
 .follow-inline {
@@ -700,17 +699,17 @@ img {
   gap: 3px;
   white-space: nowrap;
   color: var(--green);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 650;
   margin-top: 2px;
 }
 .follow-inline span {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1;
 }
 .follow-inline.following {
   color: #849086;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
 }
 .icon-button {
@@ -732,7 +731,7 @@ img {
 }
 .post-tag {
   display: inline-flex;
-  font-size: 9px;
+  font-size: 11px;
   color: #5f7465;
   background: #f0f4f1;
   border-radius: 3px;
@@ -749,7 +748,7 @@ img {
   background: #eaf5ef;
 }
 .post-body {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.9;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
@@ -761,7 +760,7 @@ img {
   overflow: hidden;
 }
 .muted-link {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   display: inline-flex;
   align-items: center;
@@ -810,12 +809,12 @@ img {
 }
 .related-package small {
   display: block;
-  font-size: 8px;
+  font-size: 10px;
   color: #64836f;
   letter-spacing: 0.4px;
 }
 .related-package strong {
-  font-size: 12px;
+  font-size: 14px;
   color: #285b40;
   display: block;
   line-height: 1.7;
@@ -824,7 +823,7 @@ img {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 8px;
+  font-size: 10px;
   color: #748a7b;
 }
 .related-package > svg {
@@ -836,14 +835,14 @@ img {
   margin: 11px 17px 0;
   padding-bottom: 9px;
   border-bottom: 1px solid #eaf0eb;
-  font-size: 9px;
+  font-size: 11px;
   color: #77857c;
 }
 .reaction-summary button {
   display: flex;
   align-items: center;
   gap: 3px;
-  font-size: 9px;
+  font-size: 11px;
   color: #78857c;
 }
 .reaction-summary button:hover {
@@ -864,7 +863,7 @@ img {
   background: #e4a263;
   margin-left: -7px;
   margin-right: 3px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .post-actions {
   display: flex;
@@ -881,7 +880,7 @@ img {
   justify-content: center;
   gap: 6px;
   padding: 9px 3px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 550;
   color: #65756b;
   width: 100%;
@@ -912,7 +911,7 @@ img {
   min-width: 0;
 }
 .comment-bubble .author-name {
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
   gap: 7px;
   flex-wrap: wrap;
@@ -920,10 +919,10 @@ img {
 .comment-affiliation {
   font-weight: 400;
   color: #829087;
-  font-size: 8px;
+  font-size: 10px;
 }
 .comment-bubble p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.85;
   margin-top: 4px;
   white-space: pre-wrap;
@@ -945,7 +944,7 @@ img {
   width: 100%;
   border: 0;
   outline: none !important;
-  font-size: 10px;
+  font-size: 12px;
   min-width: 0;
 }
 .comment-form > div:focus-within {
@@ -957,7 +956,7 @@ img {
 }
 .feed-end {
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   color: #8d9b92;
   margin-top: 26px;
   line-height: 2;
@@ -974,14 +973,14 @@ img {
   gap: 8px;
 }
 .rail-heading h2 {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: -0.3px;
 }
 .rail-heading > svg {
   color: #8c9b91;
 }
 .rail-subtitle {
-  font-size: 9px;
+  font-size: 11px;
   color: #8b988f;
   margin: 3px 0 10px;
 }
@@ -1010,11 +1009,11 @@ img {
 }
 .topic-row strong {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 650;
 }
 .topic-row small {
-  font-size: 9px;
+  font-size: 11px;
   color: #87958c;
   display: block;
   margin-top: 3px;
@@ -1027,7 +1026,7 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 550;
   color: #5c7062;
 }
@@ -1039,7 +1038,7 @@ img {
   margin-top: 9px;
 }
 .rail-concept {
-  font-size: 8px;
+  font-size: 10px;
   color: #8a998f;
   display: block;
   margin: 4px 0 11px;
@@ -1054,7 +1053,7 @@ img {
   border-bottom: 1px solid #eef3ef;
 }
 .rank {
-  font-size: 17px;
+  font-size: 18px;
   color: #91b09d;
   letter-spacing: -1px;
   font-weight: 600;
@@ -1065,7 +1064,7 @@ img {
   flex: 1;
 }
 .popular-row strong {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 650;
   display: block;
   line-height: 1.5;
@@ -1074,12 +1073,12 @@ img {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 8px;
+  font-size: 10px;
   color: #819589;
   margin-top: 5px;
 }
 .popular-row small {
-  font-size: 8px;
+  font-size: 10px;
   margin-left: auto;
 }
 .popular-row > svg {
@@ -1101,10 +1100,10 @@ img {
   min-width: 0;
 }
 .recommendation .author-name {
-  font-size: 12px;
+  font-size: 14px;
 }
 .recommendation p {
-  font-size: 9px;
+  font-size: 11px;
   color: #7d8e83;
   margin-top: 2px;
 }
@@ -1117,7 +1116,7 @@ img {
   border-radius: 18px;
   padding: 3px 12px;
   gap: 4px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 550;
   margin-top: 6px;
   min-width: 96px;
@@ -1152,7 +1151,7 @@ img {
 }
 .event-date > span {
   background: #e9f1ec;
-  font-size: 8px;
+  font-size: 10px;
   color: var(--green);
   font-weight: 700;
   letter-spacing: 1px;
@@ -1166,22 +1165,22 @@ img {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 8px;
+  font-size: 10px;
   color: #6e8c79;
 }
 .event-card h3 {
-  font-size: 11px;
+  font-size: 13px;
   margin: 3px 0;
 }
 .event-card p {
-  font-size: 8px;
+  font-size: 10px;
   color: #87958d;
 }
 .event-card button {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 9px;
+  font-size: 11px;
   color: var(--green);
   font-weight: 600;
   margin-top: 7px;
@@ -1191,7 +1190,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 4px;
-  font-size: 8px;
+  font-size: 10px;
   color: #89958d;
 }
 .dropdown {
@@ -1213,7 +1212,7 @@ img {
   gap: 9px;
   white-space: nowrap;
   padding: 10px !important;
-  font-size: 11px !important;
+  font-size: 13px !important;
   text-align: left;
   justify-content: flex-start !important;
 }
@@ -1238,11 +1237,11 @@ img {
   border-bottom: 1px solid var(--border);
 }
 .profile-dropdown strong {
-  font-size: 13px;
+  font-size: 15px;
 }
 .profile-dropdown small {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
   color: var(--muted);
 }
@@ -1280,12 +1279,12 @@ img {
 }
 .workshop-photo span {
   display: block;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 650;
   letter-spacing: 0.5px;
 }
 .workshop-photo small {
-  font-size: 8px;
+  font-size: 10px;
   opacity: 0.7;
 }
 .tips-visual {
@@ -1310,7 +1309,7 @@ img {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 9px;
+  font-size: 11px;
   color: var(--green);
   letter-spacing: 1.5px;
   font-weight: 650;
@@ -1319,7 +1318,7 @@ img {
 }
 .tips-kicker span {
   margin-left: auto;
-  font-size: 18px;
+  font-size: 19px;
   color: #83aa93;
 }
 .tips-visual > strong {
@@ -1336,7 +1335,7 @@ img {
   align-items: center;
   justify-content: space-between;
   color: #54765f;
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 15px;
 }
 .tips-ai {
@@ -1346,7 +1345,7 @@ img {
   line-height: 1;
 }
 .tips-ai span {
-  font-size: 14px;
+  font-size: 15px;
   margin-left: 3px;
 }
 .event-visual {
@@ -1357,7 +1356,7 @@ img {
 }
 .event-visual > span {
   letter-spacing: 2px;
-  font-size: 8px;
+  font-size: 10px;
   color: #9eb8a9;
 }
 .event-visual > strong {
@@ -1375,10 +1374,10 @@ img {
   font-size: 30px;
 }
 .event-visual b small {
-  font-size: 11px;
+  font-size: 13px;
 }
 .event-visual > div > span {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.8;
 }
 .publicity-visual {
@@ -1397,7 +1396,7 @@ img {
   padding: 20px;
 }
 .publicity-visual small {
-  font-size: 9px;
+  font-size: 11px;
   color: #7a7b65;
 }
 .publicity-visual strong {
@@ -1411,12 +1410,12 @@ img {
   gap: 9px;
   align-items: center;
   margin-bottom: 14px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .search-result-label > span {
   margin-left: auto;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 .button {
   display: inline-flex;
@@ -1425,7 +1424,7 @@ img {
   gap: 7px;
   border: 1px solid transparent;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   padding: 10px 16px;
   line-height: 1.5;
@@ -1455,7 +1454,7 @@ img {
   background: var(--light);
 }
 .button.small {
-  font-size: 10px;
+  font-size: 12px;
   padding: 7px 11px;
 }
 .button.danger {
@@ -1473,12 +1472,12 @@ img {
   margin-bottom: 12px;
 }
 .empty h3 {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text);
   margin-bottom: 9px;
 }
 .empty p {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.9;
   max-width: 360px;
   margin: 0 auto 20px;
@@ -1496,7 +1495,7 @@ img {
   padding: 9px 0 23px;
 }
 .eyebrow {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1.8px;
   color: var(--green);
   font-weight: 650;
@@ -1504,7 +1503,7 @@ img {
 }
 .page-heading p {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 8px;
 }
 .concept-badge {
@@ -1513,7 +1512,7 @@ img {
   gap: 6px;
   padding: 5px 10px;
   margin-top: 13px;
-  font-size: 10px;
+  font-size: 12px;
   background: #eaf0eb;
   color: #647e6d;
   border-radius: 4px;
@@ -1534,7 +1533,7 @@ img {
   border: 0;
   outline: 0 !important;
   width: 100%;
-  font-size: 12px;
+  font-size: 14px;
   background: transparent;
 }
 .filter-chips {
@@ -1547,7 +1546,7 @@ img {
   padding: 6px 12px;
   border-radius: 18px;
   border: 1px solid var(--border);
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
 }
 .filter-chips button.active {
@@ -1562,7 +1561,7 @@ img {
   display: flex;
   gap: 7px;
   align-items: center;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 input[type="checkbox"],
@@ -1572,11 +1571,11 @@ input[type="radio"] {
 .list-caption {
   display: flex;
   justify-content: space-between;
-  font-size: 11px;
+  font-size: 13px;
   margin: 21px 0 12px;
 }
 .list-caption > span {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
 }
 .package-grid {
@@ -1604,7 +1603,7 @@ input[type="radio"] {
   display: inline-flex;
   gap: 4px;
   align-items: center;
-  font-size: 9px;
+  font-size: 11px;
   color: #347753;
   background: #edf6ef;
   border-radius: 4px;
@@ -1617,15 +1616,15 @@ input[type="radio"] {
   background: #faf1e3;
 }
 .subtle-label {
-  font-size: 9px;
+  font-size: 11px;
   color: #829388;
 }
 .package-card h2 {
-  font-size: 16px;
+  font-size: 17px;
   margin: 5px 0 9px;
 }
 .package-card > p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   line-height: 1.9;
   margin-bottom: 20px;
@@ -1635,7 +1634,7 @@ input[type="radio"] {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 9px;
+  font-size: 11px;
   color: #7c8d81;
   border-top: 1px solid #ebf0ed;
   padding-top: 13px;
@@ -1656,19 +1655,19 @@ input[type="radio"] {
   color: #60806b;
 }
 .repository-explainer h3 {
-  font-size: 13px;
+  font-size: 15px;
   color: #2a5e3d;
   margin-bottom: 6px;
 }
 .repository-explainer p {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.9;
 }
 .back-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   margin: 0 0 15px;
 }
@@ -1683,7 +1682,7 @@ input[type="radio"] {
   padding: 20px 21px 0;
 }
 .detail-breadcrumb {
-  font-size: 9px;
+  font-size: 11px;
   color: #81978a;
   margin-bottom: 17px;
 }
@@ -1703,14 +1702,14 @@ input[type="radio"] {
   margin-bottom: 4px;
 }
 .detail-status > span:last-child {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
 }
 .detail-title-row h1 {
   font-size: 23px;
 }
 .detail-header > p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin: 14px 0;
   line-height: 1.9;
@@ -1720,7 +1719,7 @@ input[type="radio"] {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  font-size: 9px;
+  font-size: 11px;
   color: #7b8e81;
   margin-bottom: 18px;
 }
@@ -1735,19 +1734,19 @@ input[type="radio"] {
   gap: 8px;
 }
 .detail-ctas .button {
-  font-size: 10px;
+  font-size: 12px;
   padding: 9px 12px;
 }
 .detail-ctas .button.ghost {
   padding-left: 0;
-  font-size: 9px;
+  font-size: 11px;
 }
 .concept-inline {
   display: flex;
   gap: 5px;
   align-items: center;
   color: #8a998f;
-  font-size: 8px;
+  font-size: 10px;
   margin: 15px 0;
 }
 .detail-tabs {
@@ -1760,7 +1759,7 @@ input[type="radio"] {
 .detail-tabs > button {
   padding: 13px 0 10px;
   border-bottom: 3px solid transparent;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 550;
   color: #768c7d;
   display: flex;
@@ -1775,7 +1774,7 @@ input[type="radio"] {
   background: #e9f2ec;
   border-radius: 10px;
   padding: 0 5px;
-  font-size: 8px;
+  font-size: 10px;
 }
 .section-pad {
   padding: 20px;
@@ -1788,11 +1787,11 @@ input[type="radio"] {
   color: var(--green);
 }
 .section-title h2 {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text);
 }
 .section-title > span:not(.status) {
-  font-size: 9px;
+  font-size: 11px;
   color: #809489;
   margin-left: auto;
 }
@@ -1801,7 +1800,7 @@ input[type="radio"] {
   margin-left: auto;
 }
 .section-description {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   line-height: 1.9;
   margin-bottom: 18px;
@@ -1833,18 +1832,18 @@ input[type="radio"] {
   min-width: 0;
 }
 .flow-step > span {
-  font-size: 9px;
+  font-size: 11px;
   color: #7ca08b;
   letter-spacing: 1px;
 }
 .flow-step > strong {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
   display: block;
   margin: 5px 0;
 }
 .flow-step small {
-  font-size: 7px;
+  font-size: 9px;
   color: #90a296;
 }
 .flow-step.decision {
@@ -1863,7 +1862,7 @@ input[type="radio"] {
   align-items: center;
   justify-content: center;
   gap: 7px;
-  font-size: 8px;
+  font-size: 10px;
   color: #8d7750;
   background: #fbf8ef;
   border: 1px dashed #dfd4b8;
@@ -1871,7 +1870,7 @@ input[type="radio"] {
   padding: 9px 6px;
 }
 .flow-branch strong {
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 500;
 }
 .flow-branch svg {
@@ -1881,7 +1880,7 @@ input[type="radio"] {
   display: flex;
   align-items: flex-start;
   gap: 7px;
-  font-size: 9px;
+  font-size: 11px;
   color: #7c9284;
   line-height: 1.8;
   margin-top: 14px;
@@ -1903,7 +1902,7 @@ input[type="radio"] {
 }
 .element-mini-grid button span {
   flex: 1;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 550;
   color: #435e4e;
 }
@@ -1911,7 +1910,7 @@ input[type="radio"] {
   background: #edf5ef;
 }
 .validation > p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   line-height: 1.9;
 }
@@ -1919,7 +1918,7 @@ input[type="radio"] {
   display: flex;
   gap: 7px;
   align-items: center;
-  font-size: 9px;
+  font-size: 11px;
   color: #43815a;
   margin: 16px 0;
 }
@@ -1928,7 +1927,7 @@ input[type="radio"] {
   margin: 0 3px;
 }
 .validation > small {
-  font-size: 8px;
+  font-size: 10px;
   color: #899b8f;
   display: block;
 }
@@ -1954,12 +1953,12 @@ input[type="radio"] {
   flex: 1;
 }
 .element-toggle strong {
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   color: var(--text);
 }
 .element-toggle small {
-  font-size: 9px;
+  font-size: 11px;
   color: #86998c;
   display: block;
   margin-top: 3px;
@@ -1972,7 +1971,7 @@ input[type="radio"] {
   overflow-wrap: anywhere;
   line-height: 1.9;
   font-family: inherit;
-  font-size: 10px;
+  font-size: 12px;
   background: #f5f7f5;
   border-radius: 4px;
   padding: 12px;
@@ -1981,13 +1980,13 @@ input[type="radio"] {
 .element-content > small {
   display: block;
   margin-top: 9px;
-  font-size: 8px;
+  font-size: 10px;
   color: var(--muted);
 }
 .related-posts-note {
   display: flex;
   gap: 7px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   margin: 17px 0;
 }
@@ -2015,7 +2014,7 @@ input[type="radio"] {
   right: 30px;
   bottom: 20px;
   z-index: 1;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 3px;
   color: #fff;
 }
@@ -2042,19 +2041,19 @@ input[type="radio"] {
   align-items: center;
 }
 .full-profile-name p {
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 3px;
 }
 .full-profile-name small {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 9px;
+  font-size: 11px;
   color: var(--muted);
   margin-top: 5px;
 }
 .profile-bio {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.9;
   margin: 16px 0;
 }
@@ -2067,14 +2066,14 @@ input[type="radio"] {
   color: var(--green);
   background: #edf4ef;
   padding: 4px 8px;
-  font-size: 9px;
+  font-size: 11px;
   border-radius: 3px;
 }
 .profile-demo-info {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 8px;
+  font-size: 10px;
   color: #84968a;
   margin-top: 16px;
 }
@@ -2084,7 +2083,7 @@ input[type="radio"] {
   align-items: center;
   gap: 10px;
   padding: 9px 0;
-  font-size: 11px;
+  font-size: 13px;
 }
 .profile-packages > button > span:nth-child(2) {
   flex: 1;
@@ -2098,15 +2097,15 @@ input[type="radio"] {
   height: 35px;
 }
 .profile-packages > .muted {
-  font-size: 11px;
+  font-size: 13px;
 }
 .subheading {
-  font-size: 13px;
+  font-size: 15px;
   margin: 20px 0 13px;
 }
 .reposted-label {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
   padding: 7px 12px;
 }
 .people-grid {
@@ -2127,13 +2126,13 @@ input[type="radio"] {
   margin-top: 10px;
 }
 .person-card p {
-  font-size: 10px;
+  font-size: 12px;
   color: #6b8073;
   margin-top: 5px;
   min-height: 35px;
 }
 .person-card > small {
-  font-size: 8px;
+  font-size: 10px;
   color: #8a9b8f;
   margin: 9px 0 14px;
 }
@@ -2151,10 +2150,10 @@ input[type="radio"] {
   display: flex;
   gap: 7px;
   align-items: center;
-  font-size: 14px;
+  font-size: 15px;
 }
 .community-list > p {
-  font-size: 9px;
+  font-size: 11px;
   color: var(--muted);
   margin-top: 5px;
 }
@@ -2185,15 +2184,15 @@ input[type="radio"] {
   min-width: 0;
 }
 .community-row strong {
-  font-size: 11px;
+  font-size: 13px;
 }
 .community-row p {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   margin: 2px 0;
 }
 .community-row small {
-  font-size: 9px;
+  font-size: 11px;
   color: #879a8d;
 }
 .notifications {
@@ -2218,16 +2217,16 @@ input[type="radio"] {
   flex: 1;
 }
 .notification-item strong {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 550;
 }
 .notification-item p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin-top: 5px;
 }
 .notification-item small {
-  font-size: 9px;
+  font-size: 11px;
   color: #8b9c90;
   margin-top: 8px;
   display: block;
@@ -2273,19 +2272,19 @@ input[type="radio"] {
   z-index: 2;
 }
 .modal-header h2 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 650;
 }
 .modal-content {
   padding: 24px;
 }
 .modal-content > h3 {
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom: 14px;
   line-height: 1.65;
 }
 .modal-content > p {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
   line-height: 1.9;
   margin-bottom: 18px;
@@ -2307,11 +2306,11 @@ input[type="radio"] {
   flex: 1;
 }
 .compose-author strong {
-  font-size: 13px;
+  font-size: 15px;
   display: block;
 }
 .compose-author span {
-  font-size: 10px;
+  font-size: 12px;
   display: block;
   color: var(--muted);
 }
@@ -2319,11 +2318,11 @@ input[type="radio"] {
   display: flex;
   gap: 4px;
   align-items: center;
-  font-size: 9px;
+  font-size: 11px;
   color: #829589;
 }
 .compose-author select {
-  font-size: 10px;
+  font-size: 12px;
   border: 1px solid var(--border);
   border-radius: 5px;
   padding: 5px;
@@ -2336,7 +2335,7 @@ input[type="radio"] {
   border: 0;
   resize: vertical;
   padding: 18px 0;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.9;
   outline: none !important;
 }
@@ -2375,7 +2374,7 @@ input[type="radio"] {
   background: #fff;
   outline: 0;
   width: 100%;
-  font-size: 10px;
+  font-size: 12px;
   min-width: 0;
 }
 .compose-disclaimer {
@@ -2383,7 +2382,7 @@ input[type="radio"] {
   align-items: flex-start;
   gap: 6px;
   color: #87958b;
-  font-size: 9px;
+  font-size: 11px;
   line-height: 1.8;
   margin: 12px 0;
 }
@@ -2396,15 +2395,15 @@ input[type="radio"] {
   gap: 10px;
 }
 .compose-footer > span {
-  font-size: 9px;
+  font-size: 11px;
   color: var(--muted);
   margin-left: auto;
 }
 .compose-footer > .button {
-  font-size: 11px;
+  font-size: 13px;
 }
 .quoted-post {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.8;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
@@ -2429,7 +2428,7 @@ input[type="radio"] {
   color: white;
   box-shadow: 0 5px 25px #17362330;
   padding: 13px 19px;
-  font-size: 12px;
+  font-size: 14px;
   z-index: 200;
   border-radius: 7px;
   max-width: calc(100% - 28px);
@@ -2447,7 +2446,7 @@ input[type="radio"] {
   margin-bottom: 20px;
 }
 .event-detail-hero > span {
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 1.5px;
   color: var(--green);
 }
@@ -2456,7 +2455,7 @@ input[type="radio"] {
   margin: 12px 0 7px;
 }
 .event-detail-hero p {
-  font-size: 11px;
+  font-size: 13px;
   color: #6d8a78;
 }
 .event-info {
@@ -2467,10 +2466,10 @@ input[type="radio"] {
   align-items: center;
   gap: 9px;
   margin: 10px 0;
-  font-size: 11px;
+  font-size: 13px;
 }
 .demo-callout {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.9;
   padding: 13px 15px;
   background: #f5f7f3;
@@ -2497,11 +2496,11 @@ input[type="radio"] {
   flex: 1;
 }
 .viewer-row strong {
-  font-size: 12px;
+  font-size: 14px;
   display: block;
 }
 .viewer-row small {
-  font-size: 10px;
+  font-size: 12px;
   display: block;
   color: var(--muted);
 }
@@ -2513,13 +2512,13 @@ input[type="radio"] {
 }
 .metric-number small {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   font-weight: 400;
 }
 .demo-steps {
   padding-left: 20px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.9;
   color: var(--muted);
 }
@@ -2538,7 +2537,7 @@ input[type="radio"] {
   gap: 7px;
   align-items: center;
   padding: 8px 21px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .ai-chat {
   padding: 22px;
@@ -2562,10 +2561,10 @@ input[type="radio"] {
   border-radius: 12px;
 }
 .ai-hello strong {
-  font-size: 14px;
+  font-size: 15px;
 }
 .ai-hello p {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   margin-top: 4px;
 }
@@ -2577,7 +2576,7 @@ input[type="radio"] {
   margin-bottom: 17px;
 }
 .ai-bubble > p {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.9;
 }
 .ai-package {
@@ -2594,12 +2593,12 @@ input[type="radio"] {
 }
 .ai-package > span:nth-child(2) {
   flex: 1;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
 }
 .ai-package small {
   display: block;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 400;
   color: var(--muted);
   margin-top: 3px;
@@ -2616,7 +2615,7 @@ input[type="radio"] {
 }
 .step-label {
   color: var(--green);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1px;
   font-weight: 700;
   display: flex;
@@ -2625,7 +2624,7 @@ input[type="radio"] {
   margin-bottom: 15px;
 }
 .step-label > span {
-  font-size: 11px;
+  font-size: 13px;
   color: #607b69;
   font-weight: 500;
   letter-spacing: 0;
@@ -2636,7 +2635,7 @@ input[type="radio"] {
   margin: 0 0 17px;
 }
 .ai-form legend {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   margin-bottom: 7px;
 }
@@ -2644,7 +2643,7 @@ input[type="radio"] {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   padding: 7px 8px;
   background: #f5f8f5;
@@ -2670,7 +2669,7 @@ input[type="radio"] {
   padding: 12px 16px;
   margin: 16px 0 16px 35px;
   border-radius: 9px 0 9px 9px;
-  font-size: 11px;
+  font-size: 13px;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
@@ -2684,7 +2683,7 @@ input[type="radio"] {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--green);
   margin-bottom: 15px;
 }
@@ -2703,11 +2702,11 @@ input[type="radio"] {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  font-size: 10px;
+  font-size: 12px;
   border-radius: 50%;
 }
 .difference > p {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.9;
 }
 .ai-review-note {
@@ -2719,11 +2718,11 @@ input[type="radio"] {
   border-radius: 5px;
 }
 .ai-review-note p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.9;
 }
 .ai-fixed-note {
-  font-size: 9px;
+  font-size: 11px;
   color: #8b9b90;
   line-height: 1.8;
   margin: 11px 0;
@@ -2742,7 +2741,7 @@ input[type="radio"] {
   outline: 0 !important;
   width: 100%;
   min-width: 0;
-  font-size: 11px;
+  font-size: 13px;
 }
 .ai-footer {
   border-top: 1px solid var(--border);
@@ -2750,7 +2749,7 @@ input[type="radio"] {
   background: #fff;
 }
 .ai-footer > p {
-  font-size: 10px;
+  font-size: 12px;
   color: #7d9183;
   display: flex;
   gap: 6px;
@@ -2794,7 +2793,7 @@ input[type="radio"] {
     width: 70px;
   }
   .brand-name {
-    font-size: 16px;
+    font-size: 17px;
   }
   .header-search {
     max-width: 240px;
@@ -2821,7 +2820,7 @@ input[type="radio"] {
     display: none;
   }
   .follow-inline {
-    font-size: 10px;
+    font-size: 12px;
   }
   .author-degree {
     display: none;
@@ -2833,11 +2832,11 @@ input[type="radio"] {
     gap: 5px;
   }
   .detail-ctas .button {
-    font-size: 9px;
+    font-size: 11px;
     padding: 9px;
   }
   .flow-step strong {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 @media (max-width: 1050px) {
@@ -2870,7 +2869,7 @@ input[type="radio"] {
   }
   .profile-nav > button {
     min-width: 64px;
-    font-size: 9px;
+    font-size: 11px;
   }
   .top-nav {
     margin-left: 0;
@@ -2879,14 +2878,14 @@ input[type="radio"] {
     margin-left: 0;
   }
   .brand-name small {
-    font-size: 8px;
+    font-size: 10px;
     letter-spacing: 0.5px;
   }
   .brand {
     gap: 8px;
   }
   .brand-name {
-    font-size: 15px;
+    font-size: 16px;
   }
   .brand img {
     width: 65px;
@@ -2901,10 +2900,10 @@ input[type="radio"] {
     padding: 16px;
   }
   .package-card h2 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .package-card-top > .status {
-    font-size: 8px;
+    font-size: 10px;
     padding: 2px 4px;
   }
   .package-card-top > .package-icon {
@@ -2915,11 +2914,11 @@ input[type="radio"] {
 @media (max-width: 780px) {
   .demo-bar {
     height: 22px;
-    font-size: 8px;
+    font-size: 10px;
     padding: 0 16px;
   }
   .demo-bar > span:last-child {
-    font-size: 7px;
+    font-size: 9px;
   }
   .site-header {
     height: 64px;
@@ -2933,10 +2932,10 @@ input[type="radio"] {
     height: 26px;
   }
   .brand-name {
-    font-size: 16px;
+    font-size: 17px;
   }
   .brand-name small {
-    font-size: 7px;
+    font-size: 9px;
   }
   .brand-divider {
     height: 24px;
@@ -2957,7 +2956,7 @@ input[type="radio"] {
   .profile-nav > button {
     min-width: 0;
     flex: 1;
-    font-size: 8px;
+    font-size: 10px;
     padding: 6px 3px;
     border-bottom: 0;
     border-top: 2px solid transparent;
@@ -2977,7 +2976,7 @@ input[type="radio"] {
   }
   .profile-nav > button {
     width: 100%;
-    font-size: 8px;
+    font-size: 10px;
   }
   .profile-nav > button > span:last-child svg {
     display: none;
@@ -2996,7 +2995,7 @@ input[type="radio"] {
     gap: 6px;
   }
   .header-search input {
-    font-size: 10px;
+    font-size: 12px;
   }
   .main-layout {
     grid-template-columns: 1fr;
@@ -3012,12 +3011,12 @@ input[type="radio"] {
     display: none;
   }
   .welcome-strip {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
   .welcome-strip > button {
     display: flex;
-    font-size: 8px;
+    font-size: 10px;
   }
   .composer {
     padding: 13px 13px 6px;
@@ -3027,18 +3026,18 @@ input[type="radio"] {
     height: 37px !important;
   }
   .composer-start {
-    font-size: 11px;
+    font-size: 13px;
     padding: 10px 12px;
   }
   .composer-tools {
     margin-top: 6px;
   }
   .composer-tools > button {
-    font-size: 10px;
+    font-size: 12px;
     padding: 7px;
   }
   .feed-tabs > button {
-    font-size: 9px;
+    font-size: 11px;
     padding: 5px 11px;
   }
   .feed-toolbar {
@@ -3051,28 +3050,28 @@ input[type="radio"] {
     padding: 9px 14px 0;
   }
   .post-body {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.9;
   }
   .post-context {
     padding: 8px 14px;
-    font-size: 8px;
+    font-size: 10px;
   }
   .unverified {
-    font-size: 7px;
-  }
-  .author-name {
-    font-size: 12px;
-  }
-  .author-meta {
     font-size: 9px;
   }
+  .author-name {
+    font-size: 14px;
+  }
+  .author-meta {
+    font-size: 11px;
+  }
   .post-time {
-    font-size: 8px;
+    font-size: 10px;
     gap: 4px;
   }
   .follow-inline {
-    font-size: 10px;
+    font-size: 12px;
   }
   .post-header > .avatar-button > .avatar {
     width: 39px !important;
@@ -3087,7 +3086,7 @@ input[type="radio"] {
     margin-right: 14px;
   }
   .post-actions button:not(.menu-dismiss) {
-    font-size: 9px;
+    font-size: 11px;
     gap: 5px;
     padding: 10px 2px;
   }
@@ -3107,7 +3106,7 @@ input[type="radio"] {
     padding: 12px 15px;
   }
   .workshop-photo span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .page-heading {
     padding: 3px 0 20px;
@@ -3116,7 +3115,7 @@ input[type="radio"] {
     font-size: 23px;
   }
   .page-heading > p {
-    font-size: 11px;
+    font-size: 13px;
   }
   .repository-search {
     padding: 16px;
@@ -3126,7 +3125,7 @@ input[type="radio"] {
     margin: 14px 0;
   }
   .filter-chips button {
-    font-size: 9px;
+    font-size: 11px;
     padding: 5px 10px;
   }
   .package-grid {
@@ -3136,18 +3135,18 @@ input[type="radio"] {
     padding: 15px;
   }
   .package-card h2 {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.6;
   }
   .package-card > p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .package-card-top {
     gap: 7px;
     margin-bottom: 12px;
   }
   .package-card-top > .status {
-    font-size: 7px;
+    font-size: 9px;
   }
   .package-card-top > .status svg {
     width: 10px;
@@ -3157,7 +3156,7 @@ input[type="radio"] {
     height: 32px;
   }
   .package-card-bottom {
-    font-size: 8px;
+    font-size: 10px;
   }
   .package-card-bottom > span {
     gap: 3px;
@@ -3166,17 +3165,17 @@ input[type="radio"] {
     width: 12px;
   }
   .subtle-label {
-    font-size: 8px;
+    font-size: 10px;
   }
   .repository-explainer {
     padding: 16px;
     gap: 12px;
   }
   .repository-explainer h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .repository-explainer p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .detail-header {
     padding: 17px 16px 0;
@@ -3198,17 +3197,17 @@ input[type="radio"] {
   }
   .detail-byline {
     flex-wrap: wrap;
-    font-size: 8px;
+    font-size: 10px;
   }
   .detail-ctas {
     gap: 6px;
   }
   .detail-ctas .button {
-    font-size: 10px;
+    font-size: 12px;
     padding: 9px 10px;
   }
   .detail-ctas .button.ghost {
-    font-size: 9px;
+    font-size: 11px;
   }
   .section-pad {
     padding: 17px 15px;
@@ -3217,10 +3216,10 @@ input[type="radio"] {
     gap: 6px;
   }
   .section-title h2 {
-    font-size: 13px;
+    font-size: 15px;
   }
   .section-title > span:not(.status) {
-    font-size: 8px;
+    font-size: 10px;
   }
   .workflow {
     flex-direction: column;
@@ -3241,14 +3240,14 @@ input[type="radio"] {
     padding: 8px;
   }
   .flow-step strong {
-    font-size: 12px;
+    font-size: 14px;
     margin: 3px 0;
   }
   .flow-step > span {
-    font-size: 9px;
+    font-size: 11px;
   }
   .flow-step small {
-    font-size: 8px;
+    font-size: 10px;
   }
   .flow-arrow {
     transform: none;
@@ -3257,7 +3256,7 @@ input[type="radio"] {
   }
   .flow-branch {
     flex-wrap: wrap;
-    font-size: 8px;
+    font-size: 10px;
     padding: 11px;
     gap: 6px;
   }
@@ -3269,10 +3268,10 @@ input[type="radio"] {
     gap: 6px;
   }
   .element-mini-grid button span {
-    font-size: 10px;
+    font-size: 12px;
   }
   .validation-line {
-    font-size: 8px;
+    font-size: 10px;
     gap: 5px;
   }
   .validation-line > span {
@@ -3282,7 +3281,7 @@ input[type="radio"] {
     width: 14px;
   }
   .validation > p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .full-profile-cover {
     height: 120px;
@@ -3294,14 +3293,14 @@ input[type="radio"] {
     font-size: 22px;
   }
   .full-profile-name .button {
-    font-size: 8px;
+    font-size: 10px;
     padding: 7px;
   }
   .full-profile-name p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .profile-bio {
-    font-size: 11px;
+    font-size: 13px;
   }
   .full-profile-body > .avatar {
     width: 82px !important;
@@ -3326,17 +3325,17 @@ input[type="radio"] {
     height: 36px;
   }
   .community-row strong {
-    font-size: 10px;
+    font-size: 12px;
   }
   .community-row p {
-    font-size: 9px;
+    font-size: 11px;
   }
   .community-row small {
-    font-size: 8px;
+    font-size: 10px;
   }
   .community-row > .button {
     padding: 6px 9px;
-    font-size: 9px;
+    font-size: 11px;
   }
   .modal-backdrop {
     padding: 24px 12px 80px;
@@ -3349,7 +3348,7 @@ input[type="radio"] {
     padding: 14px 16px;
   }
   .modal-header h2 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .modal-content,
   .compose-dialog-body {
@@ -3357,40 +3356,40 @@ input[type="radio"] {
   }
   .compose-author select {
     max-width: 95px;
-    font-size: 9px;
+    font-size: 11px;
   }
   .compose-dialog-body > textarea {
-    font-size: 12px;
+    font-size: 14px;
     min-height: 190px;
   }
   .compose-footer {
     gap: 7px;
   }
   .compose-footer > .button {
-    font-size: 10px;
+    font-size: 12px;
     padding: 9px 11px;
   }
   .compose-footer > .button.ghost {
     padding-left: 0;
   }
   .compose-disclaimer {
-    font-size: 8px;
+    font-size: 10px;
   }
   .ai-panel {
     max-height: calc(100dvh - 164px);
   }
   .ai-demo-label {
     padding: 9px 15px;
-    font-size: 8px;
+    font-size: 10px;
   }
   .ai-chat {
     padding: 16px;
   }
   .ai-hello strong {
-    font-size: 12px;
+    font-size: 14px;
   }
   .ai-hello p {
-    font-size: 9px;
+    font-size: 11px;
   }
   .ai-hello {
     gap: 9px;
@@ -3403,29 +3402,29 @@ input[type="radio"] {
     padding: 14px;
   }
   .ai-form label {
-    font-size: 10px;
+    font-size: 12px;
   }
   .ai-bubble > p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .ai-result h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .ai-footer {
     padding: 13px 16px;
   }
   .ai-footer p {
-    font-size: 9px;
+    font-size: 11px;
   }
   .ai-result {
     padding: 15px;
   }
   .difference > p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .toast {
     bottom: 77px;
-    font-size: 10px;
+    font-size: 12px;
     padding: 12px 14px;
     white-space: normal;
     width: max-content;
@@ -3434,47 +3433,47 @@ input[type="radio"] {
     padding: 17px;
   }
   .event-detail-hero h3 {
-    font-size: 18px;
+    font-size: 19px;
   }
   .event-info p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .list-caption {
-    font-size: 10px;
+    font-size: 12px;
   }
   .list-caption > span {
-    font-size: 8px;
+    font-size: 10px;
   }
   .tips-visual > strong {
     font-size: 24px;
   }
   .demo-steps {
-    font-size: 11px;
+    font-size: 13px;
   }
   .notification-item {
     padding: 16px 13px;
     gap: 9px;
   }
   .notification-item strong {
-    font-size: 11px;
+    font-size: 13px;
   }
   .notification-item p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .search-result-label {
-    font-size: 11px;
+    font-size: 13px;
   }
   .concept-inline {
-    font-size: 7px;
+    font-size: 9px;
     align-items: flex-start;
     line-height: 1.8;
   }
   .related-posts-note {
-    font-size: 9px;
+    font-size: 11px;
     align-items: flex-start;
   }
   .element-content pre {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 @media (max-width: 420px) {
@@ -3485,7 +3484,7 @@ input[type="radio"] {
     gap: 7px;
   }
   .brand-name {
-    font-size: 14px;
+    font-size: 15px;
   }
   .brand-name small {
     display: none;
@@ -3499,12 +3498,12 @@ input[type="radio"] {
     max-width: 170px;
   }
   .header-search input {
-    font-size: 9px;
+    font-size: 11px;
   }
   .demo-bar > span:last-child {
     max-width: 165px;
     white-space: nowrap;
-    font-size: 6px;
+    font-size: 8px;
   }
   .main-layout {
     padding-left: 11px;
@@ -3515,19 +3514,19 @@ input[type="radio"] {
   }
   .feed-tabs > button {
     padding: 5px 9px;
-    font-size: 8px;
+    font-size: 10px;
   }
   .sort-label select {
-    font-size: 8px;
+    font-size: 10px;
   }
   .welcome-strip > button {
-    font-size: 7px;
-  }
-  .welcome-strip > span {
     font-size: 9px;
   }
+  .welcome-strip > span {
+    font-size: 11px;
+  }
   .post-time > span:last-child {
-    font-size: 7px;
+    font-size: 9px;
   }
   .post-header {
     gap: 7px;
@@ -3536,19 +3535,19 @@ input[type="radio"] {
     padding: 0;
   }
   .follow-inline {
-    font-size: 9px;
+    font-size: 11px;
   }
   .post-context {
-    font-size: 7px;
+    font-size: 9px;
   }
   .unverified {
-    font-size: 6px;
-  }
-  .author-meta > div {
     font-size: 8px;
   }
+  .author-meta > div {
+    font-size: 10px;
+  }
   .package-card-top > .status {
-    font-size: 6px;
+    font-size: 8px;
     padding: 3px;
   }
   .package-card-top > .package-icon {
@@ -3559,28 +3558,28 @@ input[type="radio"] {
     padding: 12px;
   }
   .package-card h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .package-card-bottom > span:first-child {
-    font-size: 7px;
+    font-size: 9px;
     gap: 1px;
   }
   .detail-ctas .button {
-    font-size: 9px;
+    font-size: 11px;
     padding: 9px;
   }
   .detail-ctas .button.ghost {
-    font-size: 8px;
+    font-size: 10px;
   }
   .detail-title-row h1 {
     font-size: 19px;
   }
   .detail-tabs > button {
-    font-size: 9px;
+    font-size: 11px;
   }
   .validation-line {
     gap: 4px;
-    font-size: 7px;
+    font-size: 9px;
   }
   .validation-line svg {
     width: 12px;
@@ -3592,7 +3591,7 @@ input[type="radio"] {
     margin-top: 4px;
   }
   .people-grid .author-name {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 @media (prefers-reduced-motion: reduce) {
