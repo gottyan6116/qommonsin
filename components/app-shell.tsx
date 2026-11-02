@@ -16,7 +16,6 @@ import {
   Check,
   Eye,
   MessageCircle,
-  Sparkles,
   Info,
   ShieldCheck,
   ImagePlus,
@@ -435,7 +434,12 @@ export default function AppShell() {
           </section>
           <section className="card left-ai">
             <div className="left-ai-icon">
-              <Sparkles size={21} />
+              <img
+                src="/qommons-ai-logo.png"
+                alt="QommonsAI 行政"
+                width={1938}
+                height={807}
+              />
             </div>
             <h3>
               その課題、
