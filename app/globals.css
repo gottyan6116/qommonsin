@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;650;700;750;800&display=swap");
 :root {
   --green: #176b52;
   --mint: #67c59f;
@@ -17,10 +16,9 @@ body {
   background: var(--bg);
   color: var(--text);
   font:
-    13px/1.65 "Noto Sans JP",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Yu Gothic",
+    13px/1.65 "Yu Gothic",
+    "游ゴシック",
+    YuGothic,
     Meiryo,
     sans-serif;
 }
@@ -367,7 +365,7 @@ img {
   align-items: center;
   gap: 7px;
   font-size: 18px;
-  font-weight: 750;
+  font-weight: 700;
 }
 .profile-title:hover,
 .author-name:hover {
@@ -450,15 +448,19 @@ img {
   border-color: #d4e4da;
 }
 .left-ai-icon {
-  width: 34px;
-  height: 34px;
-  background: #dbeee3;
-  border-radius: 9px;
+  width: 100%;
+  height: auto;
   color: var(--green);
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 11px;
+}
+.left-ai-icon img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 .left-ai h3 {
   font-size: 15px;
